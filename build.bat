@@ -39,10 +39,10 @@ echo Building Chrome Version...
 call :build chrome>nul
 call :unload_manifest chrome>nul
 
-call :load_manifest mozilla>nul
-echo Building Mozilla Version...
-call :build mozilla>nul
-call :unload_manifest mozilla>nul
+rem call :load_manifest mozilla>nul
+rem echo Building Mozilla Version...
+rem call :build mozilla>nul
+rem call :unload_manifest mozilla>nul
 
 call :build src>nul
 
