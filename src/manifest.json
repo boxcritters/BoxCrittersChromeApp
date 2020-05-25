@@ -1,0 +1,16 @@
+{
+    "name": "Box Critters",
+    "description": "Box Critters is a New Virtual World by RocketSnail! The idea is to create new world, inspired by Club Penguin",
+    "version": "0.1",
+    "manifest_version": 2,
+    "short_name": "Box Critters",
+    "app": {
+        "background": {
+          "scripts": ["background.js"]
+        }
+    },
+    "icons": {
+        "16": "boxcritters-16.png",
+        "128": "boxcritters-128.png"
+    }
+}
